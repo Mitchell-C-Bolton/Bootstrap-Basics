@@ -1,0 +1,116 @@
+!<!doctype html>
+<html lang="en">
+    <head>
+        <title>Bootstrap Basics</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+    </head>
+
+    <body>
+        <header>
+            <!-- place navbar here -->
+        </header>
+        <main>
+
+            <div class="container">
+                <form>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" id="fastName" placeholder="First name" required>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" id="lastName" placeholder="Last name" required>    
+                    </div>
+                </div>
+                   
+                
+                <div class="mb-3">
+                <input type="email" class="form-control" id="email" placeholder="Email" required>
+                </div>
+
+                <div class="mb-3">
+                <input type="password" class="form-control" id="password" placeholder="Password" required>
+                </div>
+
+                <div class="form-check mb-3">
+                    <input type="checkbox" class="form-check-input" id="agree">
+                    <label class="form-check-label" for="agree">I agree to the terms and conditions</label>
+                </div>
+
+                <button type="submit" class="btn btn-success">Submit</button>
+                </form>
+            </div>
+
+            
+  <div class="table-responsive">
+    <table class="table table-striped table-hover table-bordered align-middle">
+      <thead class="table-dark sticky-top">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Name</th>
+          <th scope="col">Email</th>
+          <th scope="col">Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mitchell Bolton</td>
+          <td>m.bolton@gmail.com</td>
+          <td><span class="badge bg-success">Active</span></td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jack Sparrow</td>
+          <td>kingofthepirates@pirate.com</td>
+          <td><span class="badge bg-danger">Inactive</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="container-fluid">
+    <img src="./blue_bird.jpg" class="img-fluid" alt="Blue Bird Picture">
+  </div>
+
+  <div class="container-fluid">
+    <img src="./mockingbird.jpg" class="img-fluid rounded-circle" alt="Blue Bird Picture">
+  </div>
+
+  <div>
+    <button class="btn btn-danger">Bad Button</button>
+    <button class="btn btn-success d-md-block d-none">good Button</button>
+  </div>
+  
+                
+
+        </main>
+        <footer>
+            <!-- place footer here -->
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
