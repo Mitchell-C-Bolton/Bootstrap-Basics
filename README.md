@@ -2,8 +2,6 @@
 
 This project is a fully responsive webpage built using Bootstrap. It includes a registration form, a data display table, image utilities, responsive buttons, and a navigation bar. The project demonstrates a solid understanding of Bootstrap's grid system, form components, tables, and responsive utilities.
 
----
-
 ## 🔧 Features
 
 - Registration Form
