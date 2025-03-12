@@ -1,12 +1,12 @@
-#📚 Bootstrap Webpage Project
+# 📚 Bootstrap Webpage Project
 
-##Overview
+## Overview
 
 This project is a fully responsive webpage built using Bootstrap. It includes a registration form, a data display table, image utilities, responsive buttons, and a navigation bar. The project demonstrates a solid understanding of Bootstrap's grid system, form components, tables, and responsive utilities.
 
 ---
 
-##🔧 Features
+## 🔧 Features
 
 - Registration Form
 - Validation for Email and Password fields
@@ -18,7 +18,7 @@ This project is a fully responsive webpage built using Bootstrap. It includes a 
 
 ---
 
-##🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 - HTML
 - CSS
@@ -27,7 +27,7 @@ This project is a fully responsive webpage built using Bootstrap. It includes a 
 
 ---
 
-##🚀 How to Run
+## 🚀 How to Run
 
 1. Clone the repository: git clone https://github.com/YourUsername/Bootstrap-Project
 2. Navigate to the project directory: cd Bootstrap-Project
